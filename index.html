@@ -44,28 +44,93 @@
 
     <header class="lg:container mx-auto">
         <!-- navbar section -->
-        <div class="flex justify-between items-center">
-            <div>
-                <h1 class="text-4xl font-extrabold">Hockey<span class="text-red-600">’</span>s</h1>
+        <div class="hidden">
+            <div class="flex justify-between items-center">
+                <div>
+                    <h1 class="text-4xl font-extrabold">Hockey<span class="text-red-600">’</span>s</h1>
+                </div>
+                <!-- anchor items -->
+                <div class="flex gap-8 ">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Pages</a>
+                    <a href="">Blogs</a>
+                    <a href="">Contact</a>
+                </div>
+                <div>
+                    <button class="btn btn-primary">Get Ticket</button>
+                </div>
             </div>
-            <!-- anchor items -->
-            <div class="flex gap-8 ">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Pages</a>
-                <a href="">Blogs</a>
-                <a href="">Contact</a>
-            </div>
-            <div>
-                <button class="btn btn-primary">Get Ticket</button>
-            </div>
+
         </div>
-
         <!-- banner section -->
-        <!-- first slide -->
+        <div class="carousel w-full">
+            <div id="slide1"
+                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(/Images/1.png)] h-[90vh]  bg-cover bg-no-repeat rounded-xl">
 
+                <div class="absolute flex transform -translate-y-1/2 bottom-5 left-[35%]  lg:left-5 gap-5 lg:bottom-5">
+                    <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a>
+                    <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
+                </div>
+                <div
+                    class="absolute top-full w-full mt-5  lg:top-[60%] lg:bottom-5 lg:right-5 bg-[#131318] lg:w-[520px] h-[180px] text-white space-y-3 p-4 rounded-xl ">
+                    <h3 class="text-xl lg:text-2xl font-extrabold">Meet all the heroes from the field</h3>
+                    <p class="opacity-70">One of the best parts of my job is getting to meet amazing people who are
+                        doing amazing things.
+                        Some of them are well known—but most quietly do the work of making the world better without fame
+                        or recognition.</p>
+                </div>
+            </div>
+            <div id="slide2"
+                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(/Images/1.png)] h-[90vh]  bg-cover bg-no-repeat rounded-xl">
 
+                <div class="absolute flex transform -translate-y-1/2 bottom-5 left-[35%]  lg:left-5 gap-5 lg:bottom-5">
+                    <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❮</a>
+                    <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❯</a>
+                </div>
+                <div
+                    class="absolute top-full w-full mt-5  lg:top-[60%] lg:bottom-5 lg:right-5 bg-[#131318] lg:w-[520px] h-[180px] text-white space-y-3 p-4 rounded-xl ">
+                    <h3 class="text-xl lg:text-2xl font-extrabold">Meet all the heroes images(2)</h3>
+                    <p class="opacity-70">One of the best parts of my job is getting to meet amazing people who are
+                        doing amazing things.
+                        Some of them are well known—but most quietly do the work of making the world better without fame
+                        or recognition.</p>
+                </div>
+            </div>
+            <div id="slide3"
+                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(/Images/1.png)] h-[90vh]  bg-cover bg-no-repeat rounded-xl">
 
+                <div class="absolute flex transform -translate-y-1/2 bottom-5 left-[35%]  lg:left-5 gap-5 lg:bottom-5">
+                    <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❮</a>
+                    <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❯</a>
+                </div>
+                <div
+                    class="absolute top-full w-full mt-5  lg:top-[60%] lg:bottom-5 lg:right-5 bg-[#131318] lg:w-[520px] h-[180px] text-white space-y-3 p-4 rounded-xl ">
+                    <h3 class="text-xl lg:text-2xl font-extrabold">Meet all the heroes images(3)</h3>
+                    <p class="opacity-70">One of the best parts of my job is getting to meet amazing people who are
+                        doing amazing things.
+                        Some of them are well known—but most quietly do the work of making the world better without fame
+                        or recognition.</p>
+                </div>
+            </div>
+            <div id="slide4"
+                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(/Images/1.png)] h-[90vh]  bg-cover bg-no-repeat rounded-xl">
+
+                <div class="absolute flex transform -translate-y-1/2 bottom-5 left-[35%]  lg:left-5 gap-5 lg:bottom-5">
+                    <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❮</a>
+                    <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❯</a>
+                </div>
+                <div
+                    class="absolute top-full w-full mt-5  lg:top-[60%] lg:bottom-5 lg:right-5 bg-[#131318] lg:w-[520px] h-[180px] text-white space-y-3 p-4 rounded-xl ">
+                    <h3 class="text-xl lg:text-2xl font-extrabold">Meet all the heroes images(4)</h3>
+                    <p class="opacity-70">One of the best parts of my job is getting to meet amazing people who are
+                        doing amazing things.
+                        Some of them are well known—but most quietly do the work of making the world better without fame
+                        or recognition.</p>
+                </div>
+            </div>
+
+        </div>
 
 
     </header>
@@ -76,68 +141,70 @@
         <!-- Professional Hockeys Club Section -->
 
 
-        <section class="lg:container mx-auto">
-            <!-- border -->
-            <div class="boder border-t-2 border-dashed mt-5"></div>
+        <div class="hidden">
+            <section class="lg:container mx-auto">
+                <!-- border -->
+                <div class="boder border-t-2 border-dashed mt-5"></div>
 
-            <div class=" lg:w-2/4 mx-auto text-center space-y-4">
-                <h1 class="text-2xl lg:text-4xl font-extrabold mt-10 "> Professional Hockeys Club</h1>
-                <p class="p-4 opacity-70">It’s nearly a month into the new calendar year and the NHL Trade Deadline
-                    seems to be
-                    creeping closer
-                    — and quickly. At this point in the season, most teams…</p>
-            </div>
-            <!-- border -->
-            <div class="boder border-t-2 border-dashed mt-10"></div>
+                <div class=" lg:w-2/4 mx-auto text-center space-y-4">
+                    <h1 class="text-2xl lg:text-4xl font-extrabold mt-10 "> Professional Hockeys Club</h1>
+                    <p class="p-4 opacity-70">It’s nearly a month into the new calendar year and the NHL Trade Deadline
+                        seems to be
+                        creeping closer
+                        — and quickly. At this point in the season, most teams…</p>
+                </div>
+                <!-- border -->
+                <div class="boder border-t-2 border-dashed mt-10"></div>
 
-            <!-- Radial all cards -->
-            <div class="flex flex-col lg:flex-row w-3/4 mx-auto gap-10 mt-16">
-                <!-- radial card-1 -->
+                <!-- Radial all cards -->
+                <div class="flex flex-col lg:flex-row w-3/4 mx-auto gap-10 mt-16">
+                    <!-- radial card-1 -->
 
-                <div class="text-center space-y-3">
-                    <div class=" radial-progress text-2xl font-extrabold text-red-600 " style="--value:87;"
-                        role="progressbar">
-                        <h4 class="text-black">87%</h4>
+                    <div class="text-center space-y-3">
+                        <div class=" radial-progress text-2xl font-extrabold text-red-600 " style="--value:87;"
+                            role="progressbar">
+                            <h4 class="text-black">87%</h4>
+                        </div>
+                        <h4 class="text-xl font-semibold">Prayer Facility</h4>
+                        <p class="opacity-70">Prayer is the method of the main connection of man to Allah (God)</p>
                     </div>
-                    <h4 class="text-xl font-semibold">Prayer Facility</h4>
-                    <p class="opacity-70">Prayer is the method of the main connection of man to Allah (God)</p>
+
+                    <!-- radial card-2 -->
+                    <div class="text-center space-y-3">
+                        <div class=" radial-progress text-2xl font-extrabold text-green-500" style="--value:95;"
+                            role="progressbar">
+                            <h4 class="text-black">95%</h4>
+                        </div>
+                        <h4 class="text-xl font-semibold">Experienced Coach</h4>
+                        <p class="opacity-70">The arrival of such an experienced coach played a major role in creating a
+                            new
+                            perception of the game there.</p>
+                    </div>
+                    <!-- radial card-3 -->
+                    <div class="text-center space-y-3">
+                        <div class=" radial-progress text-2xl font-extrabold text-yellow-500 " style="--value:90;"
+                            role="progressbar">
+                            <h4 class="text-black">90%</h4>
+                        </div>
+                        <h4 class="text-xl font-semibold">Senior Player</h4>
+                        <p class="opacity-70">A Senior Player is a player who has attained the age of eighteen (18+)
+                            years
+                        </p>
+                    </div>
+                    <!-- radial card-4 -->
+                    <div class="text-center space-y-3">
+                        <div class=" radial-progress text-2xl font-extrabold text-blue-500 " style="--value:80;"
+                            role="progressbar">
+                            <h4 class="text-black">80%</h4>
+                        </div>
+                        <h4 class="text-xl font-semibold">Training Ground</h4>
+                        <p class="opacity-70">an area where people prepare for sporting competitions, with activities
+                            primarily concentrating on skills and fitness</p>
+                    </div>
                 </div>
 
-                <!-- radial card-2 -->
-                <div class="text-center space-y-3">
-                    <div class=" radial-progress text-2xl font-extrabold text-green-500" style="--value:95;"
-                        role="progressbar">
-                        <h4 class="text-black">95%</h4>
-                    </div>
-                    <h4 class="text-xl font-semibold">Experienced Coach</h4>
-                    <p class="opacity-70">The arrival of such an experienced coach played a major role in creating a
-                        new
-                        perception of the game there.</p>
-                </div>
-                <!-- radial card-3 -->
-                <div class="text-center space-y-3">
-                    <div class=" radial-progress text-2xl font-extrabold text-yellow-500 " style="--value:90;"
-                        role="progressbar">
-                        <h4 class="text-black">90%</h4>
-                    </div>
-                    <h4 class="text-xl font-semibold">Senior Player</h4>
-                    <p class="opacity-70">A Senior Player is a player who has attained the age of eighteen (18+)
-                        years
-                    </p>
-                </div>
-                <!-- radial card-4 -->
-                <div class="text-center space-y-3">
-                    <div class=" radial-progress text-2xl font-extrabold text-blue-500 " style="--value:80;"
-                        role="progressbar">
-                        <h4 class="text-black">80%</h4>
-                    </div>
-                    <h4 class="text-xl font-semibold">Training Ground</h4>
-                    <p class="opacity-70">an area where people prepare for sporting competitions, with activities
-                        primarily concentrating on skills and fitness</p>
-                </div>
-            </div>
-
-        </section>
+            </section>
+        </div>
 
 
         <!-- Program Sections  -->
